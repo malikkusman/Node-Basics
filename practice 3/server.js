@@ -10,5 +10,3 @@ app.use(cors());
 app.listen(port, () => {
   console.log(`Port is host at local host ${port}`);
 });
-
-// bbdsgdgh;
