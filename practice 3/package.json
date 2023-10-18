@@ -4,6 +4,7 @@
   "description": "Lab 7 Home Assignment Create API for User including a Login-API",
   "main": "server.js",
   "scripts": {
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Muhammad Usman Asghar",

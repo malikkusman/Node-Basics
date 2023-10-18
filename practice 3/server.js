@@ -2,6 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const bodyparser = require("body-parser");
 const port = 8080;
+require("./utils/db");
 
 const app = express();
 app.use(bodyparser.json());
