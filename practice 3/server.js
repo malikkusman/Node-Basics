@@ -3,9 +3,11 @@ const cors = require("cors");
 const bodyparser = require("body-parser");
 const port = 8080;
 require("./utils/db");
+const userroute = require("./routes/UserRoutes");
 
 const app = express();
 app.use(bodyparser.json());
+app.use("/api", userroute);
 app.use(cors());
 
 app.listen(port, () => {
