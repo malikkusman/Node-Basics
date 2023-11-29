@@ -1,0 +1,19 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "description": "CREATE, READ, UPDATE, AND DELETE ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malikkusman/Node-Basics.git"
+  },
+  "author": "Muhammad Usman Asghar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/malikkusman/Node-Basics/issues"
+  },
+  "homepage": "https://github.com/malikkusman/Node-Basics#readme"
+}
